@@ -1,0 +1,17 @@
+@import './variables.css';
+@import './reset.css';
+
+body {
+  background: var(--light-gray);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+:focus {
+  outline: 2px solid var(--focus-outline-color) !important;
+}
+
+hr {
+  background-color: rgba(0, 0, 0, 0.1);
+  height: 1px;
+  border: 0;
+}

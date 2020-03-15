@@ -1,0 +1,23 @@
+:root {
+  /* colors */
+  --light-gray: rgb(240, 242, 245);
+  --background-lighter-gray: rgb(245, 246, 247);
+  --background-blue-gray: rgb(239, 243, 248);
+  --text-light-gray: rgb(146, 150, 165);
+  --text-gray: rgb(81, 88, 107);
+  --text-blue: rgb(0, 49, 113);
+  --medium-gray: rgb(143, 157, 180);
+  --medium-blue: rgb(44, 120, 255);
+  --orange: rgb(255, 141, 54);
+  --red: rgb(255, 33, 63);
+  --focus-outline-color: rgb(2, 40, 90);
+  /* box shadow */
+  --box-shadow-around: 0px 3px 5px rgba(0, 0, 0, 0.1);
+  --box-shadow-right: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  --box-shadow-bottom-and-right: 0px 2px 2px rgba(0, 0, 0, 0.2);
+  /* sizes */
+  --header-height: 80px;
+  --gutter-width: 24px;
+  --side-bar-width: 240px;
+  --side-bar-margin-left: 28px;
+}
