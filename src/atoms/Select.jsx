@@ -1,10 +1,14 @@
 import React from 'react'
 import selectArrows from './select_arrows.png'
 
-export const Select = ({ ariaLabel, children, defaultValue }) => (
+export const Select = ({ ariaLabel, children, defaultValue, onInput }) => (
   <select
     aria-label={ariaLabel}
     defaultValue={defaultValue}
+    onInput={event => {
+      // @ts-ignore
+      onInput(event.target.value)
+    }}
     style={{
       background: 'var(--background-blue-gray)',
       color: 'var(--text-blue)',

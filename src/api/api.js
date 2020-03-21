@@ -1,22 +1,23 @@
-export const getAccountData = async () => {
+export const getUser = async () => {
   await new Promise(resolve => setTimeout(resolve, 1000))
   return {
-    userName: 'C K',
+    firstName: 'C',
+    lastName: 'K',
   }
 }
 
 export const getAggregatedAccountBalance = async () => {
   await new Promise(resolve => setTimeout(resolve, 1000))
   return {
-    amount: '1314395760',
+    amount: '₦1.314.395.760',
   }
 }
 
 export const getLastTrade = async () => {
   await new Promise(resolve => setTimeout(resolve, 1000))
   return {
-    amountInDollar: '833200',
-    amountInNaira: '2965835000',
+    amountInDollar: '$ 8.332,00',
+    amountInNaira: '2.965.836.000 NGN',
   }
 }
 
